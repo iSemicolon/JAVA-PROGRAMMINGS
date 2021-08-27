@@ -14,17 +14,17 @@ public class SpecialDigit {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter Two Digit Number");
-		int n = sc.nextInt();
+		int num = sc.nextInt();
 
-		int d1 = n / 10;
-		int d2 = n % 10;
+		int d1 = num / 10;
+		int d2 = num % 10;
 
 		int sum = d1 + d2 + (d1 * d2);
 
-		if (n == sum) {
-			System.out.println(n + " Is Special Two Digit Number");
+		if (num == sum) {
+			System.out.println(num + " Is Special Two Digit Number");
 		} else {
-			System.out.println(n + " Is Not Special Two Digit Number");
+			System.out.println(num + " Is Not Special Two Digit Number");
 		}
 	}
 
