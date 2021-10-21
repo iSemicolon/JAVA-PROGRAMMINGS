@@ -2,6 +2,10 @@ package BASICS.ReverseOfNumber;
 
 import java.util.Scanner;
 
+/*
+ * Input : 873
+ * Output: 378
+ */
 public class ReverseNumber {
 
 	public static void main(String[] args) {
