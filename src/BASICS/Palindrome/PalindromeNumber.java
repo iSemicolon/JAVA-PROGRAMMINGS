@@ -1,14 +1,15 @@
-package BASICS.ArmstrongNumber;
+package BASICS.Palindrome;
 
 import java.util.Scanner;
+
 /*
  * Input-1221
- * Output- Armstrong
+ * Output- Palindrome
  * 
  * Input-122
- * Output- Not Armstrong
+ * Output- Not Palindrome
  */
-public class ArmstrongNumber {
+public class PalindromeNumber {
 
 	public static void main(String[] args) {
 		System.out.println("Enter the Number");
@@ -31,12 +32,15 @@ public class ArmstrongNumber {
 
 		if(rev==num) {
 
-			System.out.println(num+" is Armstrong");
+			System.out.println(num+" is Palindrome");
 		}
 
 		else {
-			System.out.println(num+" is Not Armstrong");
+			System.out.println(num+" is Not Palindrome");
 		}
 
 	}
+
+	
+
 }
