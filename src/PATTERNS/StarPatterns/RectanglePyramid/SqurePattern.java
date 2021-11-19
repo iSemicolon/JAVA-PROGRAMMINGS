@@ -1,4 +1,4 @@
-package PATTERNS.NumberPatterns.RectanglePyramid;
+package PATTERNS.StarPatterns.RectanglePyramid;
 
 /*
  
