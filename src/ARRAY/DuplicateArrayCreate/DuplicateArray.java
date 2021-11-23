@@ -1,4 +1,4 @@
-package ARRAY.DuplicateArray;
+package ARRAY.DuplicateArrayCreate;
 
 import java.util.Scanner;
 
