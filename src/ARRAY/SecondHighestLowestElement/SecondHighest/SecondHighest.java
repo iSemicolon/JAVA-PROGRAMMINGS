@@ -1,4 +1,4 @@
-package ARRAY.SecondHighestLowestElement;
+package ARRAY.SecondHighestLowestElement.SecondHighest;
 
 public class SecondHighest {
 
