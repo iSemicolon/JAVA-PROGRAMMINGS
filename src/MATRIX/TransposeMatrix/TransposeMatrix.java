@@ -62,7 +62,6 @@ public class TransposeMatrix {
 		System.out.println("Display  Matrix: ");
 		displayMatrix(matrix);
 
-
 		System.out.println("Transpose  Matrix: ");
 		int transpose[][]=isTranspose(matrix);
 		displayMatrix(transpose);
