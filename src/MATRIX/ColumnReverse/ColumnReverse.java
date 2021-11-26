@@ -41,20 +41,21 @@ public class ColumnReverse {
 
 
 
-	static int[][] colWiseReverse(int z[][]) //3*4
+	static int[][] colWiseReverse(int matrix[][]) //3*4
 	{
 
-		int reverse[][]=new int[z.length][z[0].length];//3*4
 
-		for(int i=0;i<z[0].length;i++)
+		for(int i=0;i<matrix.length/2;i++)
 		{
-			for(int j=z.length-1;j>=0;j--)
+			for(int j=0; j<matrix[0].length;j++)
 			{
-				reverse[z.length-1-j][i]=z[j][i];
+				int temp=matrix[i][j];
+				matrix[i][j]=matrix[matrix.length-1-i][j];
+				matrix[matrix.length-1-i][j]=temp;
 			}
 		}
 
-		return reverse;
+		return matrix;
 	}
 
 
