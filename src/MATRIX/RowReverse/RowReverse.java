@@ -42,18 +42,19 @@ public class RowReverse {
 	static int[][] rowWiseReverse(int arr[][]) //3*4
 	{
 
-		int reverse[][]=new int[arr.length][arr[0].length];//3*4
 
 		for (int i=0;i<arr.length;i++) //2
 		{
-			for (int j=arr[0].length-1;j>=0;j--)//3
+			for (int j=0; j<arr[0].length/2;j++)//3
 			{
-				reverse[i][arr[0].length-1-j]=arr[i][j]; // 00
+				int temp=arr[i][j];
+				arr[i][j]=arr[i][arr[i].length-1-j];
+				arr[i][arr[i].length-1-j]=temp; // 00
 			}
 
 		}
 
-		return reverse;
+		return arr;
 	}
 
 
