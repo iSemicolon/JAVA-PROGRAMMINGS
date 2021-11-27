@@ -2,7 +2,7 @@ package MATRIX.DiagonalMatrix.PositiveDiagonal;
 
 import java.util.Scanner;
 
-public class DiagonalReadAndDisplay {
+public class PositiveDiagonalReadAndDisplay {
 
 
 	static int[][] readMatrix()
