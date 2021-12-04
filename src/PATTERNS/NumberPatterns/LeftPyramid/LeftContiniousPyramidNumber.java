@@ -1,5 +1,12 @@
 package PATTERNS.NumberPatterns.LeftPyramid;
 
+/*
+
+   1
+  23
+ 456
+ 
+ */
 public class LeftContiniousPyramidNumber {
 
 	public static void main(String[] args) {
