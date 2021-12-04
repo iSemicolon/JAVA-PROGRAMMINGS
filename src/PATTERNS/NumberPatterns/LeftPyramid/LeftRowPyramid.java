@@ -18,7 +18,6 @@ public class LeftRowPyramid {
 
 				System.out.print(" ");
 
-
 			}
 
 			for(int col=1;col<=row;col++)
