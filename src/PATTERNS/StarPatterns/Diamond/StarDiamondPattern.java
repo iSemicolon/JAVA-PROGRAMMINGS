@@ -24,26 +24,26 @@ public class StarDiamondPattern {
 		System.out.print("Enter the number of row ");
 		int n=sc.nextInt(); 
 		//declare for loop for print first pyramid
-		for(int i=1;i<=n;i++)
+		for(int row=1;row<=n;row++)
 		{
-			for(int j=1;j<=n-i;j++)
+			for(int space=1;space<=n-row;space++)
 			{
 				System.out.print(" ");
 			}
-			for(int j=1;j<=i*2-1;j++)
+			for(int col=1;col<=row*2-1;col++)
 			{
 				System.out.print("*");
 			}
 			System.out.println();
 		} 
 		//declare for loop for print reverse pyramid
-		for(int i=n-1;i>0;i--)
+		for(int row=n-1;row>0;row--)
 		{
-			for(int j=1;j<=n-i;j++)
+			for(int space=1;space<=n-row;space++)
 			{
 				System.out.print(" ");
 			}
-			for(int j=1;j<=i*2-1;j++)
+			for(int col=1;col<=row*2-1;col++)
 			{
 				System.out.print("*");
 			}
