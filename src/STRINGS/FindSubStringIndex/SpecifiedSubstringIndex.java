@@ -53,7 +53,7 @@ public class SpecifiedSubstringIndex {
 
 
 
-	static int isSpcIndexSubStr(String str, String subStr, int occ)
+	static int isSpecifiedIndexSubStr(String str, String subStr, int occ)
 	{
 		char ch1[]=str.toCharArray();
 		char ch2[]=subStr.toCharArray();
@@ -101,7 +101,7 @@ public class SpecifiedSubstringIndex {
 		System.out.println("Enter Sub String occurance number");
 		int num=sc.nextInt();
 
-		int specifiedIndex=isSpcIndexSubStr(str,subStr,num);
+		int specifiedIndex=isSpecifiedIndexSubStr(str,subStr,num);
 		System.out.println("Specified Occurance Index:"+specifiedIndex);
 
 
