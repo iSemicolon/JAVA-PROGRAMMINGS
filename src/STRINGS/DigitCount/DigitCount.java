@@ -1,4 +1,4 @@
-package STRINGS;
+package STRINGS.DigitCount;
 
 import java.util.Scanner;
 
