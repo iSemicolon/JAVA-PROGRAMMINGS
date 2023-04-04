@@ -24,10 +24,10 @@ public class ReverseWord {
 
 		"AMAR DNA ANAMXAL"
 
-		logic: find first word to end word index of a word check legth also otherwise it count infinite time
+		logic: find first word to end word index of a word check length also otherwise it count infinite time
 		while(ch[i]!=' ')
 		{
-		i++; // here extar index increse at last index
+		i++; // here extra index increase at last index
 		}
 
 		print element of last index to first index of particular word
@@ -49,18 +49,18 @@ public class ReverseWord {
 		String str="";
 		for(int i=0;i<ch.length;i++)
 		{
-			int j=i;
+			int beg=i;
 			while(i<ch.length && ch[i]!=' ')
 			{
 				i++; //0-4, i=4// 5-8//9-16
 			}
 
-			int k=i-1; //3//15
-			while(j<=k)//3-0//15-9
+			int end=i-1; //3//15
+			while(beg<=end)//3-0//15-9
 			{
-				str=str+ch[k];
+				str=str+ch[end];
 
-				k--;
+				end--;
 			}
 
 			if (i<ch.length)
