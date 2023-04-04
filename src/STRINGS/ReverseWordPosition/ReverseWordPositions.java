@@ -49,18 +49,18 @@ public class ReverseWordPositions {
 		for(int i=ch.length-1;i>=0;i--)
 		{
 
-			int j=i;
+			int end=i;
 			while(i>=0 &&ch[i]!=' ')//15-9
 			{
 				i--; //15-8
 			}
 
-			int k=i+1; // k=9
+			int beg=i+1; // k=9
 
-			while(k<=j) //9-15
+			while(beg<=end) //9-15
 			{
-				str=str+ch[k];
-				k++;
+				str=str+ch[beg];
+				beg++;
 			}
 			if (i>=0)
 			{
